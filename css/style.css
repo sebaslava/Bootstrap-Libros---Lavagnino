@@ -10,9 +10,9 @@ body {
 
 .header {
     background-color: #f5f5f5;
-    background-image: linear-gradient(to left, #f5f5f5, rgba(233, 91, 91));
+    background-image: linear-gradient(to left, #4d4949, rgb(252, 189, 63));
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 15vh;
     padding: 0 20px;
@@ -21,6 +21,8 @@ body {
 .nav li a
 {
     color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 .imgtitle
 {
@@ -28,6 +30,11 @@ body {
     text-align: center;
     text-decoration: underline;
     color: aliceblue;
-    margin-top: 12px;
+    margin-top: 20px;
+
 }
 
+.card
+{
+    width: 16rem;
+}
