@@ -2,57 +2,54 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-7">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
         integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../css/bootstrap.css">
-    <script src="../js/bootstrap.bundle.js"></script>
     <link rel="icon" type="img/png" href="../img/books.png">
     <link rel="stylesheet" href="../css/style.css">
-
-
     <title>Productos</title>
-    
+</head>
+
 <body>
     <header class="header">
+        <a href="../index.html">
+            <img class="headerimg" src="../img/dinosaurios.png" alt="">
+        </a>
         <h1 class="title">Productos</h1>
     </header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-
+            <a class="navbar-brand" href="#">Inici</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Productos
-                        </a>
+                            Productos </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="productos.html">
-                                    Libros
-                                </a>
-                            </li>
-                            <li><a class="dropdown-item" href="productos.html">
-                                    Útiles
-                                </a>
-                            </li>
+                            <li><a class="dropdown-item" href="productos.html">Libros</a></li>
+                            <li><a class="dropdown-item" href="productos.html">Útiles</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="../index.html">
-                                    Volver
-                                </a>
-                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
-                    </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="novedades.html">Novedades</a>
+                        <a class="nav-link active" aria-current="page" href="novedades.html">Novedades</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
@@ -62,9 +59,8 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Autor/Editorial/Libro"
-                        aria-label="search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
         </div>
@@ -130,6 +126,7 @@
         </div>
     </footer>
 
+    <script src="../js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
