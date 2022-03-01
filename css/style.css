@@ -4,10 +4,15 @@ box-sizing: border-box;}
 
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'comfortaa', sans-serif;
     background-image: url(../img/cavern.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border: solid 1px red;
+    min-height: 100vh;
+    
 }
 
 .header {
@@ -42,8 +47,22 @@ body {
     color: white;
 }
 
+
 .card
 {
     width: 16rem;
 }
 
+.footer
+{
+    background-color: black;
+    color: white;
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+}
+.main
+{
+    
+    border: solid 2px red;
+}
