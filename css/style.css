@@ -10,9 +10,7 @@ body {
     background-image: url(../img/cavern.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border: solid 1px red;
     min-height: 100vh;
-    
 }
 
 .header {
