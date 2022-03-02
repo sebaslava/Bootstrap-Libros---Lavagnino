@@ -61,7 +61,9 @@ body {
     text-align: center;
 }
 
-.imput-group
+.titlequien
 {
-    width: 15%;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 40px;
 }
