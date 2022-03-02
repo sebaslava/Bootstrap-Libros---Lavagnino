@@ -23,16 +23,13 @@
         <img class="headerimg" src="./img/dinosaurios.png" alt="">
         <h1 class="title">Caverna Libros</h1>
     </header>
-    <div class="search">
-        <form>
-            <input class="form-control me-2" type="search" placeholder="Autor/Libro/Editorial">
-        </form>
-        <form>
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
-    </form>
-    </div>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <span class="border border-dark">
+        <div class="input-group">
+            <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+            <button type="button" class="btn btn-success">Buscar</button>
+        </div>
+    </span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -73,11 +70,9 @@
             <div class="col-md-12 mt-2 mb-2">
                 <img class="img-thumbnail" src="./img/bancos.jpg" alt="1">
             </div>
-            <div class="col-md-12 mt-2 mb-2 ">
-                <h2 class="imgtitle">Especial de Febrero: Stephen King</h2>
-            </div>
 
-            <div class="col-md-8">
+            <div class="col-md-9">
+                <h2 class="imgtitle">Especial de Febrero: Stephen King</h2>
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -109,17 +104,50 @@
                         <span class="visually-hidden">Siguiente</span>
                     </button>
                 </div>
-                <div class="col-md-2 mt-2">
+                <div class="col-md-2 mt-2 mb-2">
                     <a href="./pages/productos.html">
-                        <button type="button" class="btn btn-outline-info">
+                        <button type="button" class="btn btn-info">
                             Ver Más
                         </button>
                     </a>
                 </div>
-
             </div>
-
+            <div class="col-md-3 ">
+                <h2 class="imgtitle">Recomendado del mes...</h2>
+                <div class="card">
+                    <img src="./img/la apelacion.png" class="img-thumbnail" alt="la apelacion">
+                    <div class="card-body">
+                        <h5 class="card-title " style="font-weight: 700;">La Apelación</h5>
+                        <p class="card-text">Un asesinato. Quince sospechosos.
+                            ¿Puedes descubrir la verdad?</p>
+                        <a href="./pages/novedades.html" class="btn btn-info">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="imgtitle text-center col-md-12 ">
+                <h2>ELEGÍ, PAGÁ Y RECIBÍ TU PEDIDO SIN MOVERTE DE TU CASA.
+                </h2>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./img/un dias mas.png" class="card-img-top" alt="un dia mas en el universo">
+                    <div class="card-body">
+                      <h5 class="card-title">Un días más en el Universo.</h5>
+                      <a href="#" class="btn btn-primary">$990</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./img/rayuela.jpg" class="card-img-top" alt="visitante">
+                    <div class="card-body">
+                      <h5 class="card-title">El Visitante</h5>
+                      <a href="#" class="btn btn-primary">$1190</a>
+                    </div>
+                  </div>
+            </div>
         </div>
+        
     </main>
 
     <footer class="footer">
