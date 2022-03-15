@@ -7,8 +7,13 @@ $paleta: (
     
 );
 
-@each $nombre, $color in $paleta {
-    .#{$nombre}{color:$color;
+@mixin redes($color) {
+    color:$color;
     font-size: 25px;
-border: 1px solid $color;}
+    border: 1px solid $color;
+    border-radius: 10px;
+}
+
+@each $nombre, $color in $paleta {
+    .#{$nombre}{@include redes($color)}
 }
