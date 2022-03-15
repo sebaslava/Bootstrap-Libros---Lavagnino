@@ -1,20 +1,18 @@
+.iconStyle, .primary, .secondary, .succes {
+  border: 1px solid;
+  border-radius: 20px; }
+
 .primary {
   color: #b33a3a;
-  font-size: 25px;
-  border: 1px solid #b33a3a;
-  border-radius: 20px; }
+  font-size: 25px; }
 
 .secondary {
   color: #9d8cff;
-  font-size: 25px;
-  border: 1px solid #9d8cff;
-  border-radius: 20px; }
+  font-size: 25px; }
 
 .succes {
   color: #197e2e;
-  font-size: 25px;
-  border: 1px solid #197e2e;
-  border-radius: 20px; }
+  font-size: 25px; }
 
 .header {
   display: flex;
