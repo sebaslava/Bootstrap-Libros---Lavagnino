@@ -1,0 +1,14 @@
+$altobody:100vh;
+$colortitulos: rgb(255, 255, 255);
+$paleta: (
+    primary: rgb(179, 58, 58),
+    secondary: rgb(157, 140, 255),
+    succes: rgb(25, 126, 46),
+    
+);
+
+@each $nombre, $color in $paleta {
+    .#{$nombre}{color:$color;
+    font-size: 25px;
+border: 1px solid $color;}
+}
