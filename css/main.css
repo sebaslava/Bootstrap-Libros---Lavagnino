@@ -2,19 +2,19 @@
   color: #b33a3a;
   font-size: 25px;
   border: 1px solid #b33a3a;
-  border-radius: 10px; }
+  border-radius: 20px; }
 
 .secondary {
   color: #9d8cff;
   font-size: 25px;
   border: 1px solid #9d8cff;
-  border-radius: 10px; }
+  border-radius: 20px; }
 
 .succes {
   color: #197e2e;
   font-size: 25px;
   border: 1px solid #197e2e;
-  border-radius: 10px; }
+  border-radius: 20px; }
 
 .header {
   display: flex;
