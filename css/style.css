@@ -69,3 +69,6 @@ body {
     color: white;
     font-size: 40px;
 }
+
+
+.img-thumbnail:hover{transform: scale(1.3);}
